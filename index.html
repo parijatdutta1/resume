@@ -191,7 +191,7 @@
                 </div>
              </div>
              <div class="col">
-               <form onsubmit="sendmail(); reset(); return false;">
+               <form onsubmit=" sendmail(); reset(); return false;">
                 <div class="form-control">
                     <div class="form-inputs">
                         <input type="text" class="input-field" id="name" placeholder="Name" required >
@@ -225,7 +225,7 @@
                    +"<br> Message:"+ document.getElementById("msg").value ,
 
         }).then(
-            message => alert(message sent successfully)
+            message => alert("message sent successfully")
         );
     }
 </script>
