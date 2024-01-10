@@ -1,6 +1,6 @@
 <?php
 
-$file = resume.pdf ;
+$file = $_GET['file'] ."pdf" ;
 
 header("content-disposition: attachment; filename=" .urlencode($file));
 
