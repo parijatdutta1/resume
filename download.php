@@ -2,7 +2,7 @@
 
 $file = resume.pdf ;
 
-header("content-disposition: attachment; filename=" .urlencode($resume));
+header("content-disposition: attachment; filename=" .urlencode($file));
 
 $fb = fopen($file, "r");
 
